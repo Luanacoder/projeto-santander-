@@ -1,0 +1,14 @@
+* { margin: 0; padding: 0;}
+.caixa { padding: 25px;}
+.logo { width: 130px; /* largura */}
+.link-voce { color: #ff0000; /* troca a cor do texto */ margin-left: 30px; /* margem do lado esquerdo */ font-size: 20px; /* tamanho da fonte */ font-weight: 700; /* grossura da fonte */ cursor: pointer;}
+.link-voce:hover { text-decoration: underline;}
+
+.link-empresa { color: #000000; margin-left: 30px; /* margem do lado esquerdo */ font-size: 20px; /* tamanho da fonte */ cursor: pointer; /* troca o cursor do mouse */}
+.link-empresa:hover { text-decoration: underline;}
+.background { width: 100%;}
+h3 { margin-left: 200px; margin-top: 60px; /* margem em cima */ font-size: 40px;}
+ul { display: flex; justify-content: center; gap: 30px; margin-top: 50px;}
+li { height: 150px; /* altura do elemento */ width: 190px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; padding-top: 30px; display: inline-block;}
+.imagem-produtos { width: 60px; margin-left: auto; margin-right: auto; display: block;}
+p { text-align: center; margin-top: 20px; font-size: 20px;}
